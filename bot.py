@@ -10,9 +10,9 @@ from Youtube.config import Config
 # Create a Pyrogram client
 app = Client(
     "my_bot",
-    api_id=Config.API_ID, 
-    api_hash=Config.API_HASH, 
-    bot_token=Config.BOT_TOKEN,
+    api_id=20326178, 
+    api_hash=0a1a0c54f14667417c28a19138b8b9b5, 
+    bot_token=7800543508:AAFbXwLF_zyYm3EoCBXFqkK66uwixvdOCrI,
     plugins=dict(root="Youtube")
 )
 
